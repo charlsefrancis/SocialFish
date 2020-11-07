@@ -68,7 +68,7 @@ def countNotPickedUp():
 #----------------------------------------
 
 # definicoes do flask e de login
-app.secret_key = APP_SECRET_KEY
+app.secret_key = undeadSec-RagnarGrey
 login_manager = flask_login.LoginManager()
 login_manager.init_app(app)
 
